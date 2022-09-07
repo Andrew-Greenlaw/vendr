@@ -27,9 +27,12 @@
   </header>
   <main>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div id="app"></div>
+      <div class="row" id="snacks">
+      </div>
+      <div class="row" id="transaction">
+        <div class="col-md-6">
+          <button class="btn btn-primary" onclick="app.snackController.addQuarter()">add quata</button>
+          <p id="quarters">0.00</p>
         </div>
       </div>
     </div>
